@@ -63,7 +63,7 @@ export default class SortableItemModifier extends Modifier {
   @reads("sortableGroup.direction")
   direction;
 
-  @service('ember-sortable@ember-sortable')
+  @service('ember-sortable')
   sortableService;
 
   /**
